@@ -1,0 +1,849 @@
+/* ************************************** *//*Basic in this project*/
+/* Basic */
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+main, nav, article, aside, header,footer { 
+    display:block;
+    }
+
+
+/*for header in all files*/
+header {
+    text-align: right;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: #2196f3;
+    }
+
+textarea{
+    text-align:right;
+}
+/* for all */
+.ulmessage{
+    float:right;
+    width:600px;
+    }
+input{
+    text-align: center;
+    }
+
+header section{
+    width:200px;
+    }
+
+#wrapper{
+    width: 1190px;
+    margin: 0px auto;
+    }
+
+#Login {
+    text-align:left;
+    }
+
+li{
+    list-style-type: none;
+    }
+#profilekid ul p,#thiskid ul p{
+    display:inline;
+    }
+
+
+a{
+    text-decoration: none;
+    }
+
+#MyLogo{
+    position: absolute;
+    height: 150px;
+    background-image: url(../../images/LOGO.png);
+    background-repeat: no-repeat;
+    display: block;
+    }
+
+.imageuser{
+    margin-top:10px;
+    width: 100px;
+    height: 100px;   
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center; 
+    }
+
+main{
+    width: 75%;
+    height: 100%;
+    text-align: right;
+    }
+
+.Menu{
+    position: relative;
+    }
+
+.Menu ul{
+    float:right;
+    margin-top:5px;
+    position: absolute;
+    }
+
+.Menu li{
+    float: left;
+    width: 242px;
+    height: 85px;
+    text-align: right;
+    vertical-align: middle;
+    }
+
+.Menu a{
+    color: #FFFFFF;
+    font-family: 'Alef', sans-serif;
+    font-size:  26px;
+    font-weight: bold;
+    line-height: 54px;
+    }
+
+.Menu a:hover{
+    color: #0096d8;
+    }
+
+    h1{
+        text-align:center;
+        font-family: 'Secular One', sans-serif;/* font google */
+        
+    }
+
+     
+
+
+/* ************************************** *//*for computer*/
+    @media screen and (min-width: 1190px) {
+    header section{
+       position: relative;
+       margin-top:2%;
+       width:500px;
+       margin-left: 500px;
+       }
+
+    #MyLogo{
+        width: 150px;
+        background-size: 150px;
+        }
+    #profilekid #MyLogo{
+        margin-left:30%;
+    }
+
+    .imageuser{
+        position: absolute;
+        margin-left:-150px;
+        margin-top:3%;
+        }
+
+
+    /* Menu */
+        .Menu {
+            position:absolute;
+            width: 252px;
+            height: 600px;
+            margin-left:938px;
+            background-color: #add7dd;
+            }
+
+        .Menu ul{
+            top: 25px;
+            right: 20px;
+            }
+
+        .Menu a:hover{
+            color: #0096d8;
+            }
+
+
+    /* for ChildDetails.php */
+        #profilekid ul,#thiskid ul {
+            float:right;
+            margin-top:5px;
+            }
+
+        #profilekid .card,#thiskid .card{
+            margin-left:200px;
+            width: 200px;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            }
+
+        #thiskid #time{
+            float:left;
+            margin-left:50px;
+            }
+
+        #profilekid .form1,#thiskid .form1{
+            border: 5px solid #e88c3a;
+            }
+        #thiskid #Back{
+            background: #e4969d;
+            margin-right:-45px;
+            }
+
+        #thiskid #Delete{
+            background: #f57979;
+            margin-top:-150px;
+            float:left;
+            margin-left:10px;
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+            text-align: center;
+            }
+
+        #thiskid #Update{
+            background: #a9f8a9;
+            margin-top:-100px;
+            float:left;
+            margin-left:10px;
+            width: 100px;
+            height: 40px; 
+            font-size: 20px;
+            text-align: center;
+            }
+
+         #profilekid #Update{
+            background: #a9f8a9;
+            margin-top:-150px;
+            float:left;
+            margin-left:10px;
+            font-size: 50px;
+            text-align: center;
+            }
+
+    /*ChildForm.php */
+        #form form{
+            text-align: right;
+            float: right;
+            width:100%;
+            } 
+
+        #form .textLabel{
+            float: right;
+            }
+
+        #form .textLabellabel{
+            margin-top: 30px;
+            }
+
+        #form .textInput{
+            float: right;
+            margin-right: 150px;
+            }
+
+        #form .card{
+            width: 77px;
+            height: 77px;
+            background-repeat: no-repeat;
+            background-size: 77px;
+            display: block;
+            }
+
+        #form #Update,#form #ADD{
+           margin-top:500px;
+           }
+
+        #form #Back{
+            position:absolute;
+            background: #e4969d;
+            float:left;
+            margin-left:880px;        
+            }
+
+        .boxGender{
+            margin-top:30px;
+            }
+
+
+        /* for images */
+            .cc-selector-2 input{
+                position:absolute;
+                z-index:999;
+                }
+
+            .image1{background-image:url(../../images/kidNum1.jpg);}
+
+            .image2{background-image:url(../../images/kidNum2.png);}
+
+            .image3{background-image:url(../../images/kidNum3.jpg);}
+
+            .cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{
+                opacity: .9;
+                }
+
+            .cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+                -webkit-filter: none;
+                -moz-filter: none;
+                filter: none;
+                }
+
+            .drinkcard-cc{
+                cursor:pointer;
+                background-size:contain;
+                background-repeat:no-repeat;
+                display:inline-block;
+                width:100px;height:70px;
+                -webkit-transition: all 100ms ease-in;
+                -moz-transition: all 100ms ease-in;
+                transition: all 100ms ease-in;
+                -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+                -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+                filter: brightness(1.8) grayscale(1) opacity(.7);         
+                }
+
+            .drinkcard-cc:hover{
+                -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+                -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+                filter: brightness(1.2) grayscale(.5) opacity(.9);
+                }
+
+
+    /*for index.html */
+        #thisKids thead a{
+            width: 30px;
+            height: 30px;
+            }
+
+        #listKids .imageC{
+            background-image: url(../../images/Detail.jpg);
+            width: 30px;
+            height: 30px;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: center; 
+            }
+
+        #listKids table img{
+            height: 30%; 
+            }
+
+        #listKids #search{
+            display:block;
+            height: 40px;
+            width: 581px;
+            border-radius: 10px;
+            background-image: url("../../images/search.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            margin: 5px auto;
+            color: #777777;
+            font-family: Helvetica, sans-serif;
+            font-size: 14px;
+            text-align: center;
+            }
+
+        #listKids table {
+            text-align: right;
+            }
+
+        #listKids #Add{
+            float:left;
+            margin-left: 10%;
+            }
+
+
+    /*for feedback.php */
+        .correct{
+            width: 100px;
+            height: 100px;
+            }
+
+        #correct p{
+            border: 5px solid #2196f3;
+            font-size:20px;
+            }
+
+        #correct #wrapper {
+            width: 700px;
+            margin: 0px auto;
+            text-align: center;
+            margin-top: 100px;
+            }
+
+        #correct #Back{
+            background: #c9c9ce;
+            }
+
+    /* MyprofileKid.php */
+        #profilekid #MyLogo{
+            float:left;
+            margin-left:40%;
+            }
+
+         #profilekid #Exit{
+            float:left;
+            margin-left:50px;
+            font-size:50px;
+            }
+     
+
+    /* message*/
+         #message #Sent{
+            margin-left:500px;
+            margin-top:20px; 
+            }
+}
+
+
+
+
+/* ************************************** *//*for mobile*/
+@media screen and (max-width: 1189px) {
+    header{
+        height: 200px;
+        }
+
+    header section{
+        float: right;
+        margin-right:20px;
+        width:500px;
+        margin-top:6.5%;
+        }
+
+    #MyLogo{
+        margin-left:40%;
+        width: 200px;
+        background-size: 200px;
+        }
+
+    .imageuser{ 
+        float:right;
+        margin-right:100px;
+        margin-top:50px;
+        }
+
+    #Exit{
+        position:absolute;
+        font-size:40px;
+        right:1000px;
+        top:50px;
+        }
+
+    .ulmessage{
+        float:left;
+        margin-left:300px;
+        width:600px;
+    }
+
+    /* nav menu */
+        .Menu {
+            float: right;
+            top: -53px;
+            width: 50px;
+            height: 50px;
+            background-color: #add7dd;
+            background-image: url("../../images/nav.png");
+            cursor: pointer;
+            }
+
+        .Menu:hover {
+            background-color: #EEEEEE;
+            background-image: url("../../images/navhover.png");
+            border: solid 0px;
+            border-radius: 5px;
+            }
+
+        .Menu ul{
+            display: none;
+            }
+
+        @keyframes menuShow {
+            from {
+                height: 0px;
+                }
+            to {
+                height: 400px;
+                }
+            }
+
+        .show{
+/*             position: absolute; */
+            top: 48px;
+            right: 0;
+            width: 252px;
+            height: 400px;
+            background-color: #add7dd;
+            display: block !important;
+            animation-name: menuShow;
+            animation-duration: 1s;
+            }
+
+        .hide{
+            display: none !important;
+            }
+
+
+    /*main for all mobile*/
+        main{
+            width: 100%;
+            height: 100%;
+            }
+        
+
+    /* for ChildDetails.php */
+        #profilekid h2,#thiskid h2 {
+            margin-top:5px;
+            font-family:serif;
+            font-size:50px;
+            text-align:center;
+            margin-right:20px;
+            }
+
+        #profilekid .card,#thiskid .card{
+            position:absolute;
+            margin-left:20%;
+            width: 70%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            border-style:double;
+            border-radius:50%;
+            }
+
+        #profilekid main ul,#thiskid main ul{
+            float:right;
+            border-style:double;
+            border-radius:10%;
+            width:1000px;
+            margin-top:450px;
+            margin-right:100px;
+            }
+
+        #profilekid ul b,#thiskid ul b{
+            font-size:40px;margin-right:50px;
+            }
+
+        #profilekid ul p,#thiskid ul p{
+            font-size:40px;display:inline;
+            }
+
+        #thiskid #time{
+            float:left;
+            margin-left:50px;
+            }
+
+        #thiskid #Back{
+            position:absolute;
+            background: #e4969d;
+            right:710px;
+            top:1065px;
+             width:160px; 
+            font-size:50px;
+            text-align: center;
+            border-radius:20%;
+            }
+
+        #thiskid #Delete{
+            background: #f57979;
+            margin-top:-390px;
+            float:left;
+            margin-left:110px;
+            font-size: 50px;
+            text-align: center;
+            border-radius:20%;
+            }
+
+        #thiskid #Update{
+            background: #a9f8a9;
+            margin-top:-280px;
+            float:left;
+            margin-left:110px;
+            width:160px; 
+            font-size: 50px;
+            text-align: center; 
+            border-radius:20%;
+            }   
+
+         #profilekid #Update{
+            background: #a9f8a9;
+            margin-top:80px;
+            float:left;
+            margin-left:35%;
+            font-size: 100px;
+            text-align: center; 
+            border-radius:20%;
+            }
+
+
+    /*ChildForm.html */
+        #form form{
+            text-align:center;
+            float: center;
+            } 
+
+        #form .textLabel{
+            text-align:center;
+            float: center;
+            font-size:50px;
+            margin-top:-50px;
+            }
+
+        #form .textLabellabel{
+            margin-top: 30px;
+            font-size:50px; 
+            }
+
+        #form .textInput{
+            position:relative;
+            float: center;
+            font-size:50px;
+            }
+        .PhoneM{
+            margin-top:-50px;
+        }
+        #form #Update,#form #ADD{
+            background: #a9f8a9;
+            margin-top:100px;
+            float:left;
+            margin-left:35%;
+            width:160px; 
+            font-size: 50px;
+            text-align: center; 
+            border-radius:20%;
+            }
+            
+        .type{
+             font-size:85%;
+            }
+
+        #form input{
+            font-size:40px;
+            border: 5px solid #2196f3;
+        }
+
+        #form #Back{  
+            background: #e4969d;
+            float:right;
+            margin-right:35%; 
+            margin-top:100px;
+             width:160px; 
+            font-size:50px;
+            text-align: center;
+            border-radius:20%;
+            }
+
+        .boxGender{
+            margin-top:30px;
+            }
+
+        #form .card{
+            width: 77px;
+            height: 77px;
+            background-repeat: no-repeat;
+            background-size: 77px;
+            display: block;
+            }
+
+        /* for images */
+            .cc-selector-2 input{
+                position:absolute;
+                z-index:999;
+            }
+
+            .image1{background-image:url(../../images/kidNum1.jpg);}
+            
+            .image2{background-image:url(../../images/kidNum2.png);}
+            
+            .image3{background-image:url(../../images/kidNum3.jpg);}
+
+            
+            .cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{
+                opacity: .9;
+                }
+
+            .cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+                -webkit-filter: none;
+                -moz-filter: none;
+                filter: none;
+                }
+
+            .drinkcard-cc{
+                cursor:pointer;
+                background-size:contain;
+                background-repeat:no-repeat;
+                display:inline-block;
+                width:200px;height:200px;
+                -webkit-transition: all 100ms ease-in;
+                -moz-transition: all 100ms ease-in;
+                transition: all 100ms ease-in;
+                -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+                -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+                filter: brightness(1.8) grayscale(1) opacity(.7);
+                }
+
+            .drinkcard-cc:hover{
+                -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+                -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+                filter: brightness(1.2) grayscale(.5) opacity(.9);
+                }
+
+
+    /* for listkids.php */
+        #thisKids thead a{
+            width: 30px;
+            height: 30px;
+            }
+
+        #listKids .imageC{
+            background-image: url(../../images/Detail.jpg);
+            width: 70px;
+            height: 70px;
+            background-repeat: no-repeat;
+            background-size: 70px;
+            background-position: center;
+            margin-top:20px; 
+            }
+
+        #listKids table img{
+            height: 50%; 
+            }
+
+        #listKids #search{
+            display:block;
+            height: 40px;
+            width: 581px;
+            border-radius: 10px;
+            background-image: url("../../images/search.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            margin: 5px auto;
+            color: #777777;
+            font-family: Helvetica, sans-serif;
+            font-size: 14px;
+            text-align: center;
+            }
+
+        #listKids table{
+            width: 1100px;
+            margin: 0px auto;
+            margin-top:50px;
+            }
+            
+        #listKids table thead {
+            text-align: right;
+            font-size:40px;
+            text-align: center;
+            }
+
+        #listKids table tbody {
+            text-align: right;
+            font-size:35px;
+            text-align: center;
+            }
+
+        #listKids #Add{
+            float:left;
+            margin-left: 30%;
+            font-size:50px;
+            width:500px;
+            }
+
+
+    /* php */
+        .correct{
+            width: 100px;
+            height: 100px;
+            }
+
+        #correct p{
+            border: 5px solid #2196f3;
+            font-size:20px;
+            }
+
+        #correct #wrapper {
+            width: 700px;
+            margin: 0px auto;
+            text-align: center;
+            margin-top: 100px;
+            }
+
+        #correct #Back{
+            background: #c9c9ce;
+            }
+
+    /*index.php (login)*/
+        #Login{
+            font-size:500%;
+        } 
+          
+        #Login input{
+            font-size:90%;
+            border-radius:30%;
+        }  
+         
+        #Login h1{
+            float:left;
+            margin-top:100px;
+            margin-left:20%;
+            font-size:100%;
+            border: 5px solid  #2196f3;
+            border-radius:5%;
+        }
+
+        #Login button{
+            font-size:100px;
+            margin-top:70px;
+            margin-left:100px;
+            border: 10px solid  #000000;
+            border-radius:10%;
+        } 
+          
+    /* message*/
+          #message #Sent{
+             float:left;
+            margin-left:500px;
+            margin-top:20px; 
+            font-size:60px; 
+            }
+
+         #message #Reply{ 
+            font-size:40px; 
+            }
+ 
+         #message ul{
+            font-size:60px; 
+            }
+
+         #message .ulmessage li{
+             float:left;
+             margin-left:-100px;
+             margin-top:10px;
+             width:700px;
+            }
+
+    /*Reply*/
+        #Reply form{
+            text-align:center;
+            font-size:50px;
+            }
+
+         #Reply option{
+            text-align:center;
+            font-size:15px;
+            }
+         #Reply #comment{
+            font-size:50px;
+            }
+
+         #correct img{
+            width: 70%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            }
+        
+        #correct p{
+            font-size:100px;
+        }
+        #correct button{
+            font-size:50px
+        }
+}
