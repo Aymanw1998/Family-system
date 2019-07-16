@@ -10,11 +10,11 @@
             if(is_array($row)){
                 if($i==$row["user_id"]){
                 $_SESSION["id"]= $row["user_id"];$_SESSION["pass"]= $row["password"];
-                header('Location:listKids.php');
+                header('Location:listkids.php');
                 }
                 else{
                 $_SESSION["id"]= $row["kids_id"];$_SESSION["pass"]="";
-                header('Location:MyProfileKid.php');
+                header('Location:MyprofileKid.php');
                 }
             }
             else{$message="אם אתה הורה אז ות.ז. או הסיסמה שגויה או אם אתה ילד אז רק הת.ז. שלך שגויה";}

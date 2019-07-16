@@ -39,5 +39,23 @@
 @media screen and (max-width: 1189px) {
     #thiskid main .Accordion{
         margin-right:30%;
+        text-align: 1000px;
         }
+
+    #thiskid .container{
+        width: 700px;
+        float:left;
+        margin-top:10px;
+        margin-left:30%;
+        }
+        #thiskid .content{
+    width: 100%;
+    text-align:center;
+    
+    font-size:19px;
+    border: 4px solid #e88c3a;
+    color:#08819c;
+    background: cornsilk;
+    margin-top:-10px;
+    }
 }

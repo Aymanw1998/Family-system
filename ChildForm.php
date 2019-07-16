@@ -143,13 +143,13 @@
                                                   <input type="radio" name="gender" value="נקבה"  required>
                                                   <label>זכר</label>
                                                   <input type="radio" name="gender" value="זכר" checked="checked" required >
-                                                  </div><br>';
+                                                  </div>';
                             }
                           else if($_GET["ID"] !="" && $row2["gander"]=="נקבה"){
                                         echo '<div class="type">
                                                 <label>נקבה</label><input type="radio" name="gender" value="נקבה" checked="checked" required>
                                                 <label>זכר</label><input type="radio" name="gender" value="זכר"  required >
-                                                </div><br>';
+                                                </div>';
                             }
                           else{
                                         echo '<div class="type">
@@ -157,7 +157,7 @@
                                                 <input type="radio" name="gender" value="נקבה" required>
                                                 <label>זכר</label>
                                                 <input type="radio" name="gender" value="זכר"  required >
-                                                </div><br>';
+                                                </div>';
                             }
                     ?>
                 </label>
